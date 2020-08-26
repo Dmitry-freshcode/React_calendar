@@ -1,0 +1,45 @@
+.container {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  color: rgb(2, 161, 148);
+  align-items: center;
+  /*margin-top: 40px;*/
+}
+.month {
+  font-weight: bold;
+  flex-basis: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calendarWrapper {
+  user-select: none;
+  display: flex;
+  flex-basis: 80%;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.arrowLeft {
+  cursor: pointer;
+  color: grey;
+  width: 20px;
+  height: 20px;
+  border-top: 3px solid;
+  border-right: 3px solid;
+  transform: rotate(-135deg);
+  align-self: center;
+  margin-bottom: 40px;
+}
+.arrowRight {
+  cursor: pointer;
+  color: grey;
+  width: 20px;
+  height: 20px;
+  border-top: 3px solid;
+  border-right: 3px solid;
+  transform: rotate(45deg);
+  align-self: center;
+  margin-bottom: 40px;
+}
